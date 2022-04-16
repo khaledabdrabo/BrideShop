@@ -21,6 +21,7 @@ namespace BrideShop.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            //comment
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
